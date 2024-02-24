@@ -28,16 +28,12 @@ ___
   git push
   ```
 ## Terminy ważności poszczególnych ćwiczeń:
-| Ćwiczenie   | Nazwa katalogu |  Termin   |
-| ----------- | -----------    | --------  |
-| Ćwiczenie 1 | .Cwiczenie1    | 13:15 3.03.2024 |
-| Ćwiczenie 2 | .Cwiczenie2    | 13:15 3.03.2024 |
-| Ćwiczenie 3 | .Cwiczenie3    | 13:15 3.03.2024 |
-| Ćwiczenie 4 | .Cwiczenie4    | 13:15 3.03.2024 |
-| Ćwiczenie 5 | .Cwiczenie5    | 13:15 3.03.2024 |
-| Ćwiczenie 6 | .Cwiczenie6    | 13:15 3.03.2024 |
-| Ćwiczenie 7 | .Cwiczenie7    | 13:15 3.03.2024 |
-| Ćwiczenie 8 | .Cwiczenie8    | 13:15 3.03.2024 |
-| Ćwiczenie 9 | .Cwiczenie9    | 13:15 3.03.2024 |
+|Nr instrukcji | Ćwiczenie   | Nazwa katalogu |  Termin   |
+|--------------| ----------- | ---------------| --------- |
+|Instrukcja 1  | Ćwiczenie 1 | .I1_C1         | 13:15<br>3.03.2024 |
+|Instrukcja 1  | Ćwiczenie 2 | .I1_C2         | 13:15<br>3.03.2024 |
+|Instrukcja 1  | Ćwiczenie 3 | .I1_C3         | 13:15<br>3.03.2024 |
+|Instrukcja 2  | Ćwiczenie 1 | .I2_C1         | 13:15<br>3.03.2024 |
+|Instrukcja 2  | Ćwiczenie 2 | .I2_C1         | 13:15<br>3.03.2024 |
 
 
