@@ -2,7 +2,7 @@
 Repozytorium do kursu C++
 
 ## Ćwieczenia:
-- Materiały do ćwiczeń są umieszczone w osobnym katalogu np '.Cwiczenie1'.
+- Materiały do poszczególnych ćwiczeń z instrukcji są umieszczone w osobnym katalogu np '.I1_C1' - Oznacza Instrukcję 1 Ćwiczenie 1.
 - Treść do ćwiczenia znajduje się w instrukcji.
 - Każde ćwiczenie ma swój indywidualny termin ważności.
 ___
@@ -11,13 +11,14 @@ ___
   - W tym celu na początku nazwy katalogu znajduje się kropka '.' - [ASCII 46].
 - Przystępując do ćwiczenia należy katalog uwidocznić wykonując polecenie:
   ```
-  mv .Cwiczenie1 Cwieczenie1
+  mv .I1_C1 I1_C1
   ```
+- Należy wykorzystać do wykonania poszczegółnych ćwiczeń udostępnione materiały.
 - **Następnie należy wykonać zadanie zgodnie z poleceniem.**
 - Zapisać zmiany w plikach CTRL + S.
 - Wykonanie polecenia GIT dodającego katalog z realizowanym zdaniem do commita:
   ```
-  git add Cwiczenie1
+  git add I1_C1/.
   ```
 - Wykonać polecenie GIT w celu zarejestrowania commita wraz ze stosownym komentarzem:
   ```
