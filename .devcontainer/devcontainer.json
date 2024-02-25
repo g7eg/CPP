@@ -11,7 +11,31 @@
         // "vscode-icons-team.vscode-icons",
         // "ms-python.pylint",
         "GitHub.vscode-github-actions"
-        ]
+        ],
+    "settings": {
+
+    "workbench.editorAssociations": { "*.md": "vscode.markdown.preview.editor" },
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.sideBar.location": "right",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.check": true,
+        "**/.task_tests": true,
+        "**/.devcontainer": true,
+        "**/.vscode": true,
+        "**/.gitignore": true,
+        "**/.img": true,
+        "LICENSE": true
+    },
+    "explorerExclude.backup": {}
+    }
+
+	
 
 
         
