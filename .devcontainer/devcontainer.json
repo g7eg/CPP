@@ -1,0 +1,22 @@
+{
+
+    //Install extensions
+    "extensions": [
+        "ms-python.python",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "twxs.cmake",
+        "ms-vscode.cmake-tools",
+        // "vscode-icons-team.vscode-icons",
+        // "ms-python.pylint",
+        "GitHub.vscode-github-actions"
+        ]
+
+
+        
+    //Initial scripts
+    //"postStartCommand": "echo 'source ./.check/init.sh' >> /home/codespace/.bashrc"
+
+    
+}
