@@ -3,7 +3,8 @@
     //Install extensions
     "extensions": [
         "ms-python.python",
-        "llvm-vs-code-extensions.vscode-clangd",
+        "formulahendry.code-runner",
+        //"llvm-vs-code-extensions.vscode-clangd",
         "ms-vscode.cpptools",
         "ms-vscode.cpptools-extension-pack",
         "twxs.cmake",
@@ -13,7 +14,7 @@
         "GitHub.vscode-github-actions"
         ],
     "settings": {
-
+    "extensions.ignoreRecommendations": true,
     "workbench.editorAssociations": { "*.md": "vscode.markdown.preview.editor" },
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.sideBar.location": "right",
@@ -33,6 +34,7 @@
         "LICENSE": true
     },
     "explorerExclude.backup": {}
+    
     }
 
 	
