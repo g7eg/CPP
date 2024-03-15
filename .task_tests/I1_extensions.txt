@@ -1,0 +1,15 @@
+Rozszerzenia zainstalowane w lokalizacji Codespaces: ubiquitous yodel:
+formulahendry.code-runner
+GitHub.codespaces
+GitHub.github-vscode-theme
+github.vscode-github-actions
+GitHub.vscode-pull-request-github
+MS-CEINTL.vscode-language-pack-pl
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+twxs.cmake

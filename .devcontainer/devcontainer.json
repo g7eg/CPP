@@ -35,14 +35,14 @@
     },
     "explorerExclude.backup": {}
     
-    }
+    },
 
 	
 
 
         
     //Initial scripts
-    //"postStartCommand": "echo 'source ./.check/init.sh' >> /home/codespace/.bashrc"
+    "postStartCommand": "echo 'source ./.check/init.sh' >> /home/codespace/.bashrc"
 
     
 }
