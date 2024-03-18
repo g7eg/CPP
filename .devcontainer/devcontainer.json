@@ -30,7 +30,10 @@
         "**/.devcontainer": true,
         "**/.vscode": true,
         "**/.gitignore": true,
+        "**/.github": true,
         "**/.img": true,
+        "**/.temp": true,
+        "**/.pytest_cache": true,
         "LICENSE": true
     },
     "explorerExclude.backup": {}

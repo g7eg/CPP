@@ -4,7 +4,6 @@ function check_I1(){
 testnum=1
 pathz1=./.task_tests/I1_pre_test.py
 
-
 if [ -f $pathz1 ]; then
     code --list-extensions > ./.task_tests/I1_extensions.txt
     python3 $pathz1
@@ -106,3 +105,37 @@ fi
 
 }
 
+function compile_I1(){
+
+pathc1=./I1/I1_C1/main_C1.cpp
+pathc2=./I1/I1_C2/main_C2.cpp
+pathc3=./I1/I1_C3/main_C3.cpp
+
+testnum=1
+if [ -f $pathc1 ]; then
+    rm -r .temp/I1_C1
+    g++ -o ./.temp/I1_C1 ./I1/I1_C1/main_C1.cpp
+    echo '🟢 Kompilacja programów ćwiczenia' $testnum 'z instrukcji 1 powiodła się.'
+else
+    echo '🔴 Kompilacja programów dla ćwiczenie' $testnum ' z instrukcji 1 nie powiodła się.'
+fi
+
+testnum=2
+if [ -f $pathc2 ]; then
+    rm -r .temp/I1_C2
+    g++ -o ./.temp/I1_C2 ./I1/I1_C2/main_C2.cpp
+    echo '🟢 Kompilacja programów ćwiczenia' $testnum 'z instrukcji 1 powiodła się.'
+else
+    echo '🔴 Kompilacja programów ćwiczenia' $testnum 'z instrukcji 1 nie powiodła się.'
+fi
+
+testnum=3
+if [ -f $pathc3 ]; then
+    rm -r .temp/I1_C3
+    g++ -o ./.temp/I1_C3 ./I1/I1_C3/main_C3.cpp
+    echo '🟢 Kompilacja programów ćwiczenia' $testnum 'z instrukcji 1 powiodła się.'
+else
+    echo '🔴 Kompilacja programów ćwiczenia' $testnum 'z instrukcji 1 nie powiodła się.'
+fi
+
+}

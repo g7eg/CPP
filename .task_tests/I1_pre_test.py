@@ -51,6 +51,6 @@ if __name__ == '__main__':
     if len(list_of_exist_dir) == 3:
         print('_'*30)
         print('🟢 Wszystkie katalogi zostały utworzone poprawnie.')
-        print('Możesz przesłać wszystkie prace do weryfikacji.')
+        print('Możesz przystąpić do kompilacji prac.')
     else:
         print('🟡 Niektóre z katalogów nie zostały utworzone poprawnie, zweryfikuj ich poprawność przed przesłaniem.')
