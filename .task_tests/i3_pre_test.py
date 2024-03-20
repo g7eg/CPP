@@ -3,15 +3,16 @@ from os import listdir
 
 
 pwd = '.'
-path1 = f'{pwd}/i1/i1_c1'
-path2 = f'{pwd}/i1/i1_c2'
-path3 = f'{pwd}/i1/i1_c3'
+path1 = f'{pwd}/i3/i3_c1'
+path2 = f'{pwd}/i3/i3_c2'
+path3 = f'{pwd}/i3/i3_c3'
+
 
 list_of_exist_dir = []
 
 if __name__ == '__main__':
     print('\n')
-    print('Uruchomiono pre-check dla wszystkich ćwiczeń z instrukcji nr 1')
+    print('Uruchomiono pre-check dla wszystkich ćwiczeń z instrukcji nr 3')
     print('Pre-check ma na na celu sprawdzenie poprawności plików przed oddaniem zadania.')
     print('Pre-check możesz wykonać dowolną ilość razy.')
     print('Jeżeli uzuskasz kumunikat o braku ścieżki do któregoś zadania nad którym pracowałeś.')
@@ -52,9 +53,7 @@ if __name__ == '__main__':
     else:
         print(f'🔴 Katalog: {path3} dla ćwiczenia 3 jest niepoprawny lub nie istnieje.')
         print('Sprawdź czy katalog został utworzony w odpowiednim miejscu.')
-
-
-
+   
     if len(list_of_exist_dir) == 3:
         print('_'*30)
         print('🟢 Wszystkie katalogi zostały utworzone poprawnie.')

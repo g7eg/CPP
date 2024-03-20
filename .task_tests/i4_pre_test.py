@@ -3,15 +3,15 @@ from os import listdir
 
 
 pwd = '.'
-path1 = f'{pwd}/i1/i1_c1'
-path2 = f'{pwd}/i1/i1_c2'
-path3 = f'{pwd}/i1/i1_c3'
+path1 = f'{pwd}/i4/i4_c1'
+path2 = f'{pwd}/i4/i4_c2'
+
 
 list_of_exist_dir = []
 
 if __name__ == '__main__':
     print('\n')
-    print('Uruchomiono pre-check dla wszystkich ćwiczeń z instrukcji nr 1')
+    print('Uruchomiono pre-check dla wszystkich ćwiczeń z instrukcji nr 4')
     print('Pre-check ma na na celu sprawdzenie poprawności plików przed oddaniem zadania.')
     print('Pre-check możesz wykonać dowolną ilość razy.')
     print('Jeżeli uzuskasz kumunikat o braku ścieżki do któregoś zadania nad którym pracowałeś.')
@@ -41,21 +41,7 @@ if __name__ == '__main__':
         print(f'🔴 Katalog: {path2} dla ćwiczenia 2 jest niepoprawny lub nie istnieje.')
         print('Sprawdź czy katalog został utworzony w odpowiednim miejscu.')
 
-
-    if os.path.exists(path3):
-        print(f'🟢 Katalog: {path3} dla ćwiczenia 3 został utworzony poprawnie.')
-        list_of_exist_dir.append(f'{path3}')
-        if os.path.exists(f'{path3}/main_c3.cpp'):
-            print(f'🟢 Program główny : {path3}/main_c3.cpp dla ćwiczenia 3 został utworzony poprawnie.')
-        else:
-            print(f'Brak pliku programu głównego: {path3}/main_c3.cpp')
-    else:
-        print(f'🔴 Katalog: {path3} dla ćwiczenia 3 jest niepoprawny lub nie istnieje.')
-        print('Sprawdź czy katalog został utworzony w odpowiednim miejscu.')
-
-
-
-    if len(list_of_exist_dir) == 3:
+    if len(list_of_exist_dir) == 2:
         print('_'*30)
         print('🟢 Wszystkie katalogi zostały utworzone poprawnie.')
         print('Możesz przystąpić do kompilacji prac.')

@@ -2,8 +2,8 @@ import os.path
 from os import listdir
 
 
-ins_num = 1
-task_num = 2
+ins_num = 6
+task_num = 1
 
 pwd = '.'
 path = f'{pwd}/i{ins_num}/i{ins_num}_c{task_num}'
@@ -17,5 +17,5 @@ def assert_is_file_binary(parh):
 
 if __name__ == '__main__':
     assert_is_file_exist(path)
-
+    assert_is_file_binary(path)
 

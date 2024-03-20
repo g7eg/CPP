@@ -2,11 +2,17 @@
 Repozytorium do kursu C++
 
 ## Ćwieczenia:
+<span style="color:green"> 
+W ramach ćwiczeń należy przesyłać TYLKO I WYŁĄCZNIE pliki z kodem źródłowym (.cpp) oraz pliki nagłówkowe (.h)text</span>
+
+___
+
 - Każda z instrukcji posiada swój katalog zgodnie ze wzorem: 'ix' gdzie x to numer instrukcji. np [ i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11 ].
 - Każde ćwiczenie musi znajdować się w osobnym podkatalogu wewnątrz katalogu instrukcji i nazywać się zogdnie ze wzorem 'ix_cy', gdzie x to numer instrukcji a y to numer ćwiczenia np. [ i1_c1, i1_c2, i1_c3, i2_c1, ... ].
 - Wewnątrz katalogu ćwiczenia, znajdowaś się musi plik z rozszerzeniem .cpp zgodny z wzorem: 'main_cy.cpp' gdzie y to nr ćwiczenia.
 - Funkcja główna main musi znajdować się w pliku 'main_cy.cpp' gdzie y to nr ćwiczenia.
 - Pozostałe pliki .cpp jak i .h muszą znajdować się w tym samym katalogu co plik 'main_cy.cpp' (jak pokazano na drzewku katalogów poniżej) .
+
 - Treść do ćwiczenia znajduje się w instrukcji na ePortalu PWr.
 - Każde ćwiczenie ma swój indywidualny termin ważności.
 ---

@@ -2,7 +2,7 @@ import os.path
 from os import listdir
 
 
-ins_num = 1
+ins_num = 2
 task_num = 2
 
 pwd = '.'
@@ -17,5 +17,5 @@ def assert_is_file_binary(parh):
 
 if __name__ == '__main__':
     assert_is_file_exist(path)
-
+    assert_is_file_binary(path)
 
