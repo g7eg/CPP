@@ -2,11 +2,12 @@ import os.path
 from os import listdir
 # import unittest
 
+ins_num = 1
+task_num = 3
 
-# path2 = f'{pwd}/I1/I1_C2'
-# path3 = f'{pwd}/I1/I1_C3'
 pwd = '.'
-path = f'{pwd}/I1/I1_C3'
+path = f'{pwd}/I{ins_num}/I{ins_num}_C{task_num}'
+print(path)
 
 def assert_is_file_exist_c3(path):
     assert os.path.exists(f'{path}/main_C3.cpp') == True
