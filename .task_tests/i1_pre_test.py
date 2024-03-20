@@ -3,9 +3,9 @@ from os import listdir
 import re
 
 pwd = '.'
-path1 = f'{pwd}/I1/I1_C1'
-path2 = f'{pwd}/I1/I1_C2'
-path3 = f'{pwd}/I1/I1_C3'
+path1 = f'{pwd}/i1/i1_c1'
+path2 = f'{pwd}/i1/i1_c2'
+path3 = f'{pwd}/i1/i1_c3'
 # path4 = f'{pwd}/przedmioty/programowanie/prowadzacy'
 
 list_of_exist_dir = []
@@ -22,10 +22,10 @@ if __name__ == '__main__':
     if os.path.exists(path1):
         print(f'🟢 Katalog: {path1} dla ćwiczenia 1 został utworzony poprawnie.')
         list_of_exist_dir.append(f'{path1}')
-        if os.path.exists(f'{path1}/main_C1.cpp'):
-            print(f'🟢 Program główny : {path1}/main_C1.cpp dla ćwiczenia 1 został utworzony poprawnie.')
+        if os.path.exists(f'{path1}/main_c1.cpp'):
+            print(f'🟢 Program główny : {path1}/main_c1.cpp dla ćwiczenia 1 został utworzony poprawnie.')
         else:
-            print(f'Brak pliku programu głównego: {path1}/main_C1.cpp')
+            print(f'Brak pliku programu głównego: {path1}/main_c1.cpp')
 
     else:
         print(f'🔴 Katalog: {path1} dla ćwiczenia 1 jest niepoprawny lub nie istnieje.')
