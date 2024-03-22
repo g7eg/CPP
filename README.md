@@ -4,9 +4,11 @@ Repozytorium do kursu C++
 ## Ćwieczenia:
 <span style="color:green"> 
 W ramach ćwiczeń należy przesyłać TYLKO I WYŁĄCZNIE pliki z kodem źródłowym (.cpp) oraz pliki nagłówkowe (.h)text</span>
+
 <span style="color:red"> 
 Przed upływem terminu dla poszczególnego ćwiczenia, możliwe jest dokonywanie poprawek w kodzie oraz commitowanie i pushowane bez ograniczeń.</span>
-<span style="color:green"> PZED WYKOANNIEM PUSH NALEŻY WYKONAĆ POLECENIE 'compile_ix'.</span>
+
+<span style="color:green"> PZED WYKONANIEM PUSH NALEŻY WYKONAĆ POLECENIE 'compile_ix'.</span>
 
 ___
 
