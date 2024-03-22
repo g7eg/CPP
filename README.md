@@ -4,6 +4,9 @@ Repozytorium do kursu C++
 ## Ćwieczenia:
 <span style="color:green"> 
 W ramach ćwiczeń należy przesyłać TYLKO I WYŁĄCZNIE pliki z kodem źródłowym (.cpp) oraz pliki nagłówkowe (.h)text</span>
+<span style="color:red"> 
+Przed upływem terminu dla poszczególnego ćwiczenia, możliwe jest dokonywanie poprawek w kodzie oraz commitowanie i pushowane bez ograniczeń.</span>
+<span style="color:green"> PZED WYKOANNIEM PUSH NALEŻY WYKONAĆ POLECENIE 'compile_ix'.</span>
 
 ___
 
@@ -80,13 +83,17 @@ ___
   ``` 
   gdzie x to numer instrukcji.
 
+  Polecenie to sprawdzi czy struktura katalogów została wykonana poprawnie.
+
   Jeżeli uzyskany komunikat jest ok, przejdź dalej. Jeżeli nie dokonaj stosownych poprawek.
 
-  3. Wykonaj polecenie:
+  3. Wykonaj OBOWIĄZKOWO polecenie:
   ```bash 
   compile_ix
   ``` 
   gdzie x to numer instrukcji.
+
+  Polecenie to spróbuje dokonać kompilacji programów dla poszczególnych zadań.
 
   Jeżeli uzyskany komunikat jest ok, przejdź dalej. Jeżeli nie dokonaj stosownych poprawek.
 
