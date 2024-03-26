@@ -113,6 +113,98 @@ ___
   ```bash
   git push
   ```
+## Kompilacja programu / uruchomienie programu - wprowadzenie.
+Bardzo prawodpodobne że będziesz chciał skompilować i uruchomić swój program aby upewnić się że działa on poprawnie.
+
+W codespace dla plików z rozszerzeniem .cpp/.h domyślnie pojawia się w prawym gónym rogu okna klawisz 'play' ▶️ .
+
+Który często błędnie jest utożsamiany z pojaciem 'uruchomienia programu'.
+
+Języki kompilowalne takie jak np. C++ wymagają przed uruchomieniem wykonania tzw. processu kompilacji.
+
+W bardzo dużym uproszczeniu, proces ten polega na przetłumaczeniu kodu programu na kod binarny, zrozumiały dla komputera.
+
+W wielu środowiskach programistycznych (tzw. IDE) podobny klawisz 'play' ▶️ wykonuje cały proces automatycznie, czego efektem jest uruchomienie programu.
+
+W Codespace, domyślnie klawisz ten pozwala uruchmić kompilację i start programu składającego się z jednego pliki .cpp
+
+W takiej sytuacji jeżeli w Twoim programie znajduje się więcej plików .cpp np zawierających odrębne klasy.
+
+Może powstać problem z poprawną kompilacją i działaniem programu.
+
+Aby temu zapobiec, zalecane jest dokonanie kompilacji oraz uruchomienia poprzez terminal, za pomocą odpowiedniego polecenia.
+
+### Kompilacja programu.
+Przykład kompilacji programu zostanie przedstwiony na podstawie ćwiczenie 1 z instrukcji 1.
+
+Z założeniem że klasa zostąła wyodrębniona jako osobne pliki .cpp/.h (natomiast sposób ten będzie działał równineż gdy klasa będzie znajdować się w pliku głównym, obok funkcji głównej main - co nie jest do końca dobrą praktyką).
+
+Przykładowa struktura kartalogów dla ćwiczenie 1 z instrukcji 1:
+```bash
+.
+├── README.md
+└── i1
+    └── i1_c1
+        ├── Licznik.cpp
+        ├── Licznik.h
+        └── main_c1.cpp
+```
+
+1. Przechodzimy do katalogu w którym znajduje się plik z główną funkcją.
+```bash
+cd i1/i1_c1
+```
+2. Możemy wyświetlić zawartość katalogu.
+```bash
+ls
+```
+3. Dokonamy teraz kompilacji plików znajdujących się w tym katalogu.
+```bash
+g++ -o i1_c1 *.cpp
+```
+W powyższym poleceniu g++ to polecenie wybierające kompilator który posłuży do kompilacji kodu programu.
+Następnie -o to opcja wskazująca że wynik kompilacji ma zostać umieszczony w pliku i1_c1 (tak bez żadnego rozszerzeia po kropce!).
+Ostatnia część polecenie *.cpp wskazuje że kompilacji mają podlegaż wszystkie pliki .cpp znajdujące się w tym katalogu gdzie obecnie się znajdujemy.
+
+4. Efektem poprawnej kompilacji jest utworzenie nowego pliku - skompilowanego pliku (i1_c1) w naszym katalogu.
+W przypadku gdy kompilacja nie przebiegnie pomyślnie, uzyskamy stosowny komunikat błędu.
+
+Widok struktury katalogów po kompilacji kodu programu:
+```bash
+.
+├── README.md
+└── i1
+    └── i1_c1
+        ├── Licznik.cpp
+        ├── Licznik.h
+        ├── i1_c1
+        └── main_c1.cpp
+```
+Teraz nie pozostaje nic innego jak podjęcie próby uruchomienia programu.
+
+### Uruchomienie programu
+1. Aby uruchomić program należy wywołać go w terminalu.
+Jeżeli nie zmieniłeś katalogu i znajdujesz się w tym samym miejscu co skompilowany plik.
+To do tego celu wykorzystujemy polecenie składające się z kropki i slash, a nastepnie podajemy nazwe naszego skompilowanego pliku.
+
+```bash
+./i1_c1
+```
+
+UWAGA!
+
+Każda zmiana w kodzie źródłowym wymaga ponowej rekompilacji programu.
+Aby ułatwić sobie pracę, należy skorzystać z przewijania ostatnio wykorzystywanych poleceń w terminalu.
+Robimy to będąc w terminalu, poprzez naciśniecie strzełki na klawiaturze w górę / dół. 
+
+
+UWAGA!
+
+Skompilowany plik jest zwykłym plikiem i możemy dokonywać na nim identycznych operacji jak na zwykłym pliku.
+Np. możemy taki plik usunąć:
+```bash
+rm i1_c1
+```
 
 ## Informacje do poszczególnych ćwiczeń:
 |Nr instrukcji | Ćwiczenie   | Struktura katalogu |  Kompilacja programu |
